@@ -37,31 +37,3 @@ btmultplicacao.addEventListener("click", function() {
 function multiplica(a, b) {
     resul.textContent = (a * b)
 }
-
-let selectIdioma = document.querySelector('#idioma');
-selectIdioma.addEventListener("change", function() {
-    if (this.value == 'br') {
-        btsoma.value = "somar";
-        btsubtracao.value = 'subtração'
-        btdivisao.value = 'divisão'
-        btmultplicacao.value = 'multiplição'
-    }
-    else if (this.value == 'es') {
-        btsoma.value = "sumar"
-        btsubtracao.value = 'subtracion'
-        btdivisao.value = 'division'
-        btmultplicacao.value = 'multiplicacion'
-    }
-    else if (this.value == 'en') {
-        btsoma.value = "sum"
-        btsubtracao.value = 'subtration'
-        btdivisao.value = 'division'
-        btmultplicacao.value = 'multiplication'
-    }
-    else if (this.value == 'fr') {
-        btsoma.value = "somar francesa"
-        btsubtracao.value = 'subtração francesa '
-        btdivisao.value = 'divisãon francesa'
-        btmultplicacao.value = 'multiplicação francesa'
-    }
-})
