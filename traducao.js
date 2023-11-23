@@ -32,10 +32,10 @@ function setLanguage(traducao) {
     titulo = document.getElementById('titulo');
     texto = document.getElementById('texto');
     
-    btsoma.Value = traducao.soma;
-    btsubtracao.Value = traducao.subtracao;
-    btdivisao.Value = traducao.divisao;
-    btmultplicacao.Value = traducao.multplicacao;
+    btsoma.value = traducao.soma;
+    btsubtracao.value = traducao.subtracao;
+    btdivisao.value = traducao.divisao;
+    btmultplicacao.value = traducao.multplicacao;
     titulo.textContent = traducao.titulo;
     texto.textContent = traducao.texto;
 }
