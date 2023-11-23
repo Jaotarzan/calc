@@ -5,6 +5,6 @@ function englesh() {
         divisao: 'division',
         multplicacao: 'multiplication',
         titulo: "calculadora inglesa",
-        texto: "eu deveras inteligente e criei esta calcudora apenas para mostrar a minha superioridade"
+        texto: "I'm really smart and I created this calculator just to show my superiority"
     }
 }
